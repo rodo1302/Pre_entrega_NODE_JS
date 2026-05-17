@@ -1,5 +1,7 @@
 # Pre_entrega_NODE_JS
+
 El objetivo es construir una herramienta funcional para manejar productos de una tienda en línea desde la terminal.
+
 # 🛒 FakeStoreAPI CLI App
 
 Aplicación de consola desarrollada con Node.js para consumir la API pública de FakeStoreAPI utilizando métodos HTTP.
@@ -28,7 +30,7 @@ La aplicación permite:
 ## 1. Clonar repositorio
 
 ```bash
-git clone https://github.com/TU-USUARIO/TU-REPOSITORIO.git
+git clone https://github.com/rodo1302/Pre_entrega_NODE_JS.git
 ```
 
 ---
@@ -36,7 +38,7 @@ git clone https://github.com/TU-USUARIO/TU-REPOSITORIO.git
 ## 2. Entrar a la carpeta
 
 ```bash
-cd TU-REPOSITORIO
+cd Pre_entrega_NODE_JS
 ```
 
 ---
