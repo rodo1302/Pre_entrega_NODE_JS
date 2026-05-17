@@ -1,10 +1,10 @@
-# Pre_entrega_NODE_JS
+# Pre_entrega_npm start_JS
 
 El objetivo es construir una herramienta funcional para manejar productos de una tienda en línea desde la terminal.
 
 # 🛒 FakeStoreAPI CLI App
 
-Aplicación de consola desarrollada con Node.js para consumir la API pública de FakeStoreAPI utilizando métodos HTTP.
+Aplicación de consola desarrollada con npm start.js para consumir la API pública de FakeStoreAPI utilizando métodos HTTP.
 
 La aplicación permite:
 
@@ -18,7 +18,7 @@ La aplicación permite:
 
 # 🚀 Tecnologías utilizadas
 
-- Node.js
+- npm start.js
 - Fetch API
 - JavaScript ESModules
 - FakeStoreAPI
@@ -30,7 +30,7 @@ La aplicación permite:
 ## 1. Clonar repositorio
 
 ```bash
-git clone https://github.com/rodo1302/Pre_entrega_NODE_JS.git
+git clone https://github.com/rodo1302/Pre_entrega_npm start_JS.git
 ```
 
 ---
@@ -38,7 +38,7 @@ git clone https://github.com/rodo1302/Pre_entrega_NODE_JS.git
 ## 2. Entrar a la carpeta
 
 ```bash
-cd Pre_entrega_NODE_JS
+cd Pre_entrega_npm start_JS
 ```
 
 ---
@@ -47,6 +47,8 @@ cd Pre_entrega_NODE_JS
 
 ```bash
 node index.js
+npm start
+npm run start
 ```
 
 ---
@@ -62,7 +64,7 @@ node index.js
 La aplicación utiliza argumentos por consola:
 
 ```bash
-node index.js <METODO> <CATALOGO> [ARGUMENTOS]
+npm start index.js <METODO> <CATALOGO> [ARGUMENTOS]
 ```
 
 ---
@@ -76,7 +78,7 @@ Obtiene productos desde la API.
 ### Obtener todos los productos
 
 ```bash
-node index.js GET products
+npm start index.js GET products
 ```
 
 ---
@@ -84,7 +86,7 @@ node index.js GET products
 ### Obtener producto por ID
 
 ```bash
-node index.js GET products/1
+npm start index.js GET products/1
 ```
 
 ---
@@ -94,7 +96,7 @@ node index.js GET products/1
 Crea un nuevo producto.
 
 ```bash
-node index.js POST products "Notebook" 1500 electronics
+npm start index.js POST products "Notebook" 1500 electronics
 ```
 
 ---
@@ -104,7 +106,7 @@ node index.js POST products "Notebook" 1500 electronics
 Elimina un producto por ID.
 
 ```bash
-node index.js DELETE products/1
+npm start index.js DELETE products/1
 ```
 
 ---
@@ -155,6 +157,7 @@ La aplicación contempla:
 ```bash
 📦 Pre_entrega
  ┣ 📜 index.js
+ ┣ 📜 package.json
  ┗ 📜 README.md
 ```
 
@@ -162,4 +165,4 @@ La aplicación contempla:
 
 # 👨‍💻 Autor
 
-Proyecto desarrollado por Rodo.
+Proyecto desarrollado por Rodolfo.
